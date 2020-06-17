@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Duy"
+        android:layout_centerVertical="true"
+        android:padding="2sp"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name"
+        android:text="20173232"
+        android:layout_centerVertical="true"
+        android:padding="2sp"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/mssv"
+        android:text="20/06/1999"
+        android:layout_centerVertical="true"
+        android:padding="2sp"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="110dp"
+        android:layout_toLeftOf="@+id/xoa"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/birthday"
+        android:layout_centerVertical="true"
+        android:text="duy@gmail.com"
+        android:padding="2sp"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/xoa"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/sua"
+        android:text="Xóa"
+        android:textSize="8sp"/>
+
+    <Button
+        android:id="@+id/sua"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:text="Sửa"
+        android:textSize="8sp"
+        android:gravity="center"/>
+
+</RelativeLayout>
